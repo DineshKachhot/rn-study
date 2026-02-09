@@ -16,6 +16,7 @@ export default function Animations() {
         { id: 2, name: 'Animated Props', description: 'Animated Props', navigation: './animations/animated-props' },
         { id: 3, name: 'Custom Animation', description: 'Custom Animation', navigation: './animations/custom-animation' },
         {id: 4, name: 'Modifiers', description: 'Modifiers', navigation: './animations/modifiers' },
+        {id: 5, name: 'Gesture Handler', description: 'Gesture Handler', navigation: './animations/gesture-handler' },
     ]);
 
     const renderReanimation = (reanimation: Reanimation) => {
